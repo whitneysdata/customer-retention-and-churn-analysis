@@ -1,0 +1,53 @@
+# ================================================================
+# Customer Retention & Churn Analysis
+# Business Analytics Case Study — SQL + Power BI
+#
+# This project uses PostgreSQL and Power BI.
+# This file documents the VS Code extensions and tools needed
+# to run the project from VS Code.
+#
+# Install PostgreSQL driver for VS Code SQLTools:
+#   1. Open VS Code
+#   2. Extensions (Ctrl+Shift+X)
+#   3. Search and install each extension below
+# ================================================================
+
+# ── VS Code Extensions (install via Extensions panel) ──────────
+# SQLTools                    → mtxr.sqltools
+# SQLTools PostgreSQL Driver  → mtxr.sqltools-driver-pg
+# GitLens                     → eamodio.gitlens
+# Markdown Preview Enhanced   → shd101wyy.markdown-preview-enhanced
+# Rainbow CSV                 → mechatroner.rainbow-csv
+# indent-rainbow              → oderwat.indent-rainbow
+
+# ── External Tools (install separately) ────────────────────────
+# PostgreSQL 16+   → https://www.postgresql.org/download/
+# pgAdmin 4        → bundled with PostgreSQL installer
+# Power BI Desktop → https://powerbi.microsoft.com/desktop/
+# Git              → https://git-scm.com/download/win
+
+# ── VS Code SQLTools connection settings ───────────────────────
+# After installing SQLTools + PostgreSQL Driver, connect with:
+#
+#   Name    : churn_db (local)
+#   Driver  : PostgreSQL
+#   Server  : localhost
+#   Port    : 5432
+#   Database: churn_db
+#   Username: postgres
+#   Password: [datascience]
+#
+# Then run any .sql file with:
+#   Ctrl+Shift+P → SQLTools: Run Current File
+
+# ── Power BI PostgreSQL connector ──────────────────────────────
+# Power BI requires the Npgsql driver to connect to PostgreSQL:
+# Download: https://github.com/npgsql/npgsql/releases
+# Install the .msi file, then restart Power BI Desktop.
+# Connection: localhost | churn_db | Import mode
+
+# ── Dataset ────────────────────────────────────────────────────
+# IBM Telco Customer Churn (Kaggle - blastchar)
+# https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+# Download the CSV, rename to telco_churn.csv
+# Place at: data/raw/telco_churn.csv  (gitignored)
