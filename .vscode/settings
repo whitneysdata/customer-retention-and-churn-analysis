@@ -1,0 +1,52 @@
+{
+  // ================================================================
+  // .vscode/settings.json
+  // Customer Retention & Churn Analysis
+  // ================================================================
+
+  // SQL file formatting
+  "files.associations": {
+    "*.sql": "sql"
+  },
+
+  // Auto-format SQL on save (requires SQL Formatter extension)
+  "[sql]": {
+    "editor.formatOnSave": false,
+    "editor.tabSize": 4
+  },
+
+  // Markdown preview
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false
+  },
+
+  // Show all file extensions including .gitkeep
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true
+  },
+
+  // SQLTools connection (fill in your password)
+  "sqltools.connections": [
+    {
+      "name": "churn_db (local)",
+      "driver": "PostgreSQL",
+      "server": "localhost",
+      "port": 5432,
+      "database": "churn_db",
+      "username": "postgres",
+      "password": "[datascience]"
+    }
+  ],
+
+  // Show Git changes in editor gutter
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+
+  // Editor quality of life
+  "editor.rulers": [80],
+  "editor.renderWhitespace": "trailing",
+  "editor.minimap.enabled": false,
+  "explorer.confirmDelete": false
+}
