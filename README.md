@@ -6,6 +6,7 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
 ![VS Code](https://img.shields.io/badge/Editor-VS%20Code-007ACC?logo=visualstudiocode&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.20531754.svg)
 
 ---
 
